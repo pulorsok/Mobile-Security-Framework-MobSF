@@ -124,7 +124,7 @@ APKPLZ = 'https://apkplz.net/download-app/'
 
 # Database
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
-# Sqlite3 suport
+# Sqlite3 support
 
 DATABASES = {
     'default': {
@@ -389,6 +389,7 @@ else:
     # --------------------------
     DOMAIN_MALWARE_SCAN = True
     APKID_ENABLED = True
+    QUARK_ENABLED = True
     # ==============================================
 
     # ========DISABLED BY DEFAULT COMPONENTS=========
